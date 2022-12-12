@@ -1,0 +1,43 @@
+﻿@page
+@model CountriesModel
+@using VirobnichaFirma.DAL
+@{
+    ViewData["Title"] = "Coutries";
+}
+
+<div class="text-center">
+</div>
+
+<div>
+    <a asp-page="Country">Создать</a>
+    <form method="post">
+        <table class="table">
+            <tr>
+                <th>ID</th>
+                <th>Название Страны</th>
+                <th></th>
+            </tr>
+            @{
+                foreach (var Country in Model.Countries)
+                { 
+                    <tr>
+                        <td>@Country.Id</td>
+                        <td>
+                        @Country.CountryName
+                        </td>
+                        <td align="right">
+                        <a asp-page="Country" asp-route-id="@Country.Id" class="btn btn-outline-warning btn-sm">
+                        Редактировать
+                        </a>
+                        <button type="submit" class="btn btn-outline-danger btn-sm" 
+                            asp-page-handler="delete" asp-route-id="@Country.Id">Удалить</button>
+                        </td>
+                    </tr>
+                }
+            }
+        </table>
+    </form>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

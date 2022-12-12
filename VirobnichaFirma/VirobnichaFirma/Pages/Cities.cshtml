@@ -1,0 +1,49 @@
+﻿@page
+@model CitiesModel
+@using VirobnichaFirma.DAL
+@{
+    ViewData["Title"] = "Coutries";
+}
+
+<div class="text-center">
+</div>
+
+<div>
+    <a asp-page="City">Создать</a>
+    <form method="post">
+        <table class="table">
+            <tr>
+                <th>ID</th>
+                <th>Название Города</th>
+                <th>Страна</th>
+                <th></th>
+            </tr>
+            @{
+                foreach (var city in Model.Cities)
+                { 
+                        <tr>
+                            <td>
+                                @city.Id
+                            </td>
+                            <td>
+                                @city.CityName
+                            </td>
+                            <td>
+                                @Model.Countries.FirstOrDefault(_=>_.Id==city.CountryId)?.CountryName
+                            </td>
+                            <td align="right">
+                            <a asp-page="City" asp-route-id="@city.Id" class="btn btn-outline-warning btn-sm">
+                            Редактировать
+                            </a>
+                            <button type="submit" class="btn btn-outline-danger btn-sm" 
+                            asp-page-handler="delete" asp-route-id="@city.Id">Удалить</button>
+                            </td>
+                        </tr>
+                }
+            }
+        </table>
+    </form>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

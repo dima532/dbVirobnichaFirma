@@ -1,0 +1,92 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VirobnichaFirma
+build_property.RootNamespace = VirobnichaFirma
+build_property.ProjectDir = C:\Users\dimab\OneDrive\Бази даних (Курс)\VirobnichaFirma\VirobnichaFirma\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dimab\OneDrive\Бази даних (Курс)\VirobnichaFirma\VirobnichaFirma
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Accounts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Affiliate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWZmaWxpYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Affiliates.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWZmaWxpYXRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Cities.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l0aWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/City.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Countries.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Country.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Customer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Customers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dimab/OneDrive/Бази даних (Курс)/VirobnichaFirma/VirobnichaFirma/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tc54qxb2zr

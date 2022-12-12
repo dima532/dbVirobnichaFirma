@@ -1,0 +1,49 @@
+﻿@page
+@model AffiliatesModel
+@using VirobnichaFirma.DAL
+@{
+    ViewData["Title"] = "Coutries";
+}
+
+<div class="text-center">
+</div>
+
+<div>
+    <a asp-page="Affiliate">Создать</a>
+    <form method="post">
+        <table class="table">
+            <tr>
+                <th>ID</th>
+                <th>Название Города</th>
+                <th>Страна</th>
+                <th></th>
+            </tr>
+            @{
+                foreach (var Affiliate in Model.Affiliates)
+                { 
+                        <tr>
+                            <td>
+                                @Affiliate.Id
+                            </td>
+                            <td>
+                                @Affiliate.AffiliateName
+                            </td>
+                            <td>
+                                @Model.Cities.FirstOrDefault(_=>_.Id==Affiliate.CityId)?.CityName
+                            </td>
+                            <td align="right">
+                            <a asp-page="Affiliate" asp-route-id="@Affiliate.Id" class="btn btn-outline-warning btn-sm">
+                            Редактировать
+                            </a>
+                            <button type="submit" class="btn btn-outline-danger btn-sm"
+                            asp-page-handler="delete" asp-route-id="@Affiliate.Id">Удалить</button>
+                            </td>
+                        </tr>
+                }
+            }
+        </table>
+    </form>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
