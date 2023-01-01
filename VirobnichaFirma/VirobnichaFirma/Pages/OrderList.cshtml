@@ -1,0 +1,52 @@
+﻿@page
+@model OrderListModel
+@using VirobnichaFirma.DAL
+@{
+    ViewData["Title"] = "Coutries";
+}
+
+<div class="text-center">
+</div>
+
+<div>
+    @if (User.IsInRole("Administrator"))
+    {
+        <a asp-page="City">Создать</a>
+    }
+    <form method="post">
+        <table class="table">
+            <tr>
+                <th>ID Заказа</th>
+                <th>ID Продукта</th>
+                <th>Колл-во</th>
+                <th></th>
+            </tr>
+            @{
+                foreach (var OrderL in Model.OrderLs)
+                { 
+                        <tr>
+                            <td>
+                                @OrderL.OrderId
+                            </td>
+                            <td>
+                                @Model.Products.FirstOrDefault(_=>_.Id==OrderL.ProductId).ProductName
+                            </td>
+                            <td>
+                                @OrderL.Amount
+                            </td>
+                            <td align="right">
+                            @if (User.IsInRole("Administrator"))
+                            {
+                                <button type="submit" class="btn btn-outline-danger btn-sm" asp-page-handler="delete" 
+                                asp-route-orderId="@OrderL.OrderId" asp-route-productId="@OrderL.ProductId">Удалить</button>
+                            }
+                            </td>
+                        </tr>
+                }
+            }
+        </table>
+    </form>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

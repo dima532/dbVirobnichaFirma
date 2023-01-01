@@ -9,7 +9,10 @@
 </div>
 
 <div>
-    <a asp-page="Country">Создать</a>
+    @if (User.IsInRole("Administrator"))
+    {
+        <a asp-page="Country">Создать</a>
+    }
     <form method="post">
         <table class="table">
             <tr>
@@ -26,11 +29,12 @@
                         @Country.CountryName
                         </td>
                         <td align="right">
-                        <a asp-page="Country" asp-route-id="@Country.Id" class="btn btn-outline-warning btn-sm">
-                        Редактировать
-                        </a>
-                        <button type="submit" class="btn btn-outline-danger btn-sm" 
+                        @if (User.IsInRole("Administrator"))
+                        {
+                            <a asp-page="Country" asp-route-id="@Country.Id" class="btn btn-outline-warning btn-sm">Редактировать</a>
+                            <button type="submit" class="btn btn-outline-danger btn-sm" 
                             asp-page-handler="delete" asp-route-id="@Country.Id">Удалить</button>
+                        }
                         </td>
                     </tr>
                 }

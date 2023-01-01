@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HXKlOibO5mriu3OYDSEXAcwCs21z1Iua9Umv2mr00lDA7ow7iD4nPIqeyvklkMA5Bjqp7RAQwUQlZtno/WOSlg==",
+  "dgSpecHash": "3Cr4+SkyST56ssZ9FnqMMBUATFOmWjtXRmGfhj6e6ibgQgevVaxCJzP8dkTm6faVUuscPD+dDmdMq40D/C9t7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dimab\\OneDrive\\Бази даних (Курс)\\VirobnichaFirma\\VirobnichaFirma\\VirobnichaFirma.csproj",
+  "projectFilePath": "F:\\dbVirobnichaFirma\\VirobnichaFirma\\VirobnichaFirma\\VirobnichaFirma.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dimab\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.11\\microsoft.entityframeworkcore.6.0.11.nupkg.sha512",
     "C:\\Users\\dimab\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.11\\microsoft.entityframeworkcore.abstractions.6.0.11.nupkg.sha512",

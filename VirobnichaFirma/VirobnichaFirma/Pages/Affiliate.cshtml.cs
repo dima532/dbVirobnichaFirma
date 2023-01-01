@@ -19,6 +19,10 @@ namespace VirobnichaFirma.Pages
 
         public IActionResult OnGet(int id)
         {
+            if (!User.IsInRole("Administrator"))
+            {
+                return RedirectToPage("Index");
+            }
             Affiliate = _dbContext.Affiliates.FirstOrDefault(_ => _.Id == id) ?? new Affiliate();
             FillCities();
             return Page();

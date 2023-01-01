@@ -34,3 +34,39 @@ C:\Users\dimab\OneDrive\Бази даних (Курс)\VirobnichaFirma\Virobnich
 C:\Users\dimab\OneDrive\Бази даних (Курс)\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\VirobnichaFirma.DAL.dll
 C:\Users\dimab\OneDrive\Бази даних (Курс)\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\VirobnichaFirma.DAL.pdb
 C:\Users\dimab\OneDrive\Бази даних (Курс)\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\VirobnichaFirma.csproj.CopyComplete
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\appsettings.Development.json
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\appsettings.json
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\VirobnichaFirma.staticwebassets.runtime.json
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\VirobnichaFirma.exe
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\VirobnichaFirma.deps.json
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\VirobnichaFirma.runtimeconfig.json
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\VirobnichaFirma.dll
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\VirobnichaFirma.pdb
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\MySqlConnector.dll
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\VirobnichaFirma.DAL.dll
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\bin\Debug\net6.0\VirobnichaFirma.DAL.pdb
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\VirobnichaFirma.csproj.AssemblyReference.cache
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\VirobnichaFirma.GeneratedMSBuildEditorConfig.editorconfig
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\VirobnichaFirma.AssemblyInfoInputs.cache
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\VirobnichaFirma.AssemblyInfo.cs
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\VirobnichaFirma.csproj.CoreCompileInputs.cache
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\VirobnichaFirma.MvcApplicationPartsAssemblyInfo.cache
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\VirobnichaFirma.RazorAssemblyInfo.cache
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\VirobnichaFirma.RazorAssemblyInfo.cs
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\staticwebassets.build.json
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\staticwebassets.development.json
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\scopedcss\bundle\VirobnichaFirma.styles.css
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\scopedcss\projectbundle\VirobnichaFirma.bundle.scp.css
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\VirobnichaFirma.csproj.CopyComplete
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\VirobnichaFirma.dll
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\refint\VirobnichaFirma.dll
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\VirobnichaFirma.pdb
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\VirobnichaFirma.genruntimeconfig.cache
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma\obj\Debug\net6.0\ref\VirobnichaFirma.dll

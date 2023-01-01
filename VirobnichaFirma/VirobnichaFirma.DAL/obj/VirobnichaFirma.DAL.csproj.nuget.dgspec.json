@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dimab\\OneDrive\\Бази даних (Курс)\\VirobnichaFirma\\VirobnichaFirma.DAL\\VirobnichaFirma.DAL.csproj": {}
+    "F:\\dbVirobnichaFirma\\VirobnichaFirma\\VirobnichaFirma.DAL\\VirobnichaFirma.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dimab\\OneDrive\\Бази даних (Курс)\\VirobnichaFirma\\VirobnichaFirma.DAL\\VirobnichaFirma.DAL.csproj": {
+    "F:\\dbVirobnichaFirma\\VirobnichaFirma\\VirobnichaFirma.DAL\\VirobnichaFirma.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dimab\\OneDrive\\Бази даних (Курс)\\VirobnichaFirma\\VirobnichaFirma.DAL\\VirobnichaFirma.DAL.csproj",
+        "projectUniqueName": "F:\\dbVirobnichaFirma\\VirobnichaFirma\\VirobnichaFirma.DAL\\VirobnichaFirma.DAL.csproj",
         "projectName": "VirobnichaFirma.DAL",
-        "projectPath": "C:\\Users\\dimab\\OneDrive\\Бази даних (Курс)\\VirobnichaFirma\\VirobnichaFirma.DAL\\VirobnichaFirma.DAL.csproj",
+        "projectPath": "F:\\dbVirobnichaFirma\\VirobnichaFirma\\VirobnichaFirma.DAL\\VirobnichaFirma.DAL.csproj",
         "packagesPath": "C:\\Users\\dimab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dimab\\OneDrive\\Бази даних (Курс)\\VirobnichaFirma\\VirobnichaFirma.DAL\\obj\\",
+        "outputPath": "F:\\dbVirobnichaFirma\\VirobnichaFirma\\VirobnichaFirma.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dimab\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }

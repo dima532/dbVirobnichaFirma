@@ -19,7 +19,11 @@ namespace VirobnichaFirma.Pages
 
         public IActionResult OnGet(int id)
         {
-            City = _dbContext.Cities.FirstOrDefault(_ => _.Id == id) ?? new City();
+            if (!User.IsInRole("Administrator"))
+            {
+                return RedirectToPage("Index");
+            }
+                City = _dbContext.Cities.FirstOrDefault(_ => _.Id == id) ?? new City();
             FillCountries();
             return Page();
         }

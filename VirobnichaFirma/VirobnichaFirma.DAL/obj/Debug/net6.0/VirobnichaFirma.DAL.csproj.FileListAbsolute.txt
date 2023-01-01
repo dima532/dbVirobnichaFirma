@@ -10,3 +10,15 @@ C:\Users\dimab\OneDrive\Бази даних (Курс)\VirobnichaFirma\Virobnich
 C:\Users\dimab\OneDrive\Бази даних (Курс)\VirobnichaFirma\VirobnichaFirma.DAL\obj\Debug\net6.0\refint\VirobnichaFirma.DAL.dll
 C:\Users\dimab\OneDrive\Бази даних (Курс)\VirobnichaFirma\VirobnichaFirma.DAL\obj\Debug\net6.0\VirobnichaFirma.DAL.pdb
 C:\Users\dimab\OneDrive\Бази даних (Курс)\VirobnichaFirma\VirobnichaFirma.DAL\obj\Debug\net6.0\ref\VirobnichaFirma.DAL.dll
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma.DAL\bin\Debug\net6.0\VirobnichaFirma.DAL.deps.json
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma.DAL\bin\Debug\net6.0\VirobnichaFirma.DAL.dll
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma.DAL\bin\Debug\net6.0\VirobnichaFirma.DAL.pdb
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma.DAL\obj\Debug\net6.0\VirobnichaFirma.DAL.csproj.AssemblyReference.cache
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma.DAL\obj\Debug\net6.0\VirobnichaFirma.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma.DAL\obj\Debug\net6.0\VirobnichaFirma.DAL.AssemblyInfoInputs.cache
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma.DAL\obj\Debug\net6.0\VirobnichaFirma.DAL.AssemblyInfo.cs
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma.DAL\obj\Debug\net6.0\VirobnichaFirma.DAL.csproj.CoreCompileInputs.cache
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma.DAL\obj\Debug\net6.0\VirobnichaFirma.DAL.dll
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma.DAL\obj\Debug\net6.0\refint\VirobnichaFirma.DAL.dll
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma.DAL\obj\Debug\net6.0\VirobnichaFirma.DAL.pdb
+F:\dbVirobnichaFirma\VirobnichaFirma\VirobnichaFirma.DAL\obj\Debug\net6.0\ref\VirobnichaFirma.DAL.dll

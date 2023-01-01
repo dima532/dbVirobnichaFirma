@@ -17,6 +17,10 @@ namespace VirobnichaFirma.Pages
 
         public IActionResult OnGet(int id)
         {
+            if (!User.IsInRole("Administrator"))
+            {
+                return RedirectToPage("Index");
+            }
             Country = _dbContext.Countries.FirstOrDefault(_=>_.Id==id)??new Country();
             return Page();
         }

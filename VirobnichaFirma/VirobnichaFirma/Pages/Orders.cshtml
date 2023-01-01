@@ -1,0 +1,61 @@
+﻿@page
+@model OrdersModel
+@using VirobnichaFirma.DAL
+@{
+    ViewData["Title"] = "Coutries";
+}
+
+<div class="text-center">
+</div>
+
+<div>
+    <form method="post">
+        <table class="table">
+            <tr>
+                <th>ID</th>
+                <th>Филлиал</th>
+                <th>Заказчик</th>
+                <th>Дата заказа</th>
+                <th>Состояние</th>
+                <th></th>
+            </tr>
+            @{
+                foreach (var Order in Model.Orders)
+                { 
+                        <tr>
+                            <td>
+                                @Order.Id
+                            </td>
+                            <td>
+                                @Model.Affiliates.FirstOrDefault(_=>_.Id==Order.AffiliateId)?.AffiliateName
+                            </td>
+                            <td>
+                                @Model.Customers.FirstOrDefault(_=>_.Id==Order.CustomerId)?.CustomerName
+                            </td>
+                            <td>
+                                @Order.Date.ToString()
+                            </td>
+                            <td>
+                                @Order.State
+                            </td>
+
+
+                            <td align="right">
+                            @if (User.IsInRole("Administrator"))
+                            {
+                                <a asp-page="Order" asp-route-id="@Order.Id" class="btn btn-outline-warning btn-sm">
+                                Редактировать
+                                </a>
+                                <button type="submit" class="btn btn-outline-danger btn-sm" 
+                                asp-page-handler="delete" asp-route-id="@Order.Id">Удалить</button>
+                            }
+                            </td>
+                        </tr>
+                }
+            }
+        </table>
+    </form>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

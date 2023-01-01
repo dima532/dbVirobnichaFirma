@@ -1,0 +1,25 @@
+﻿@page
+@model ProfileModel
+@using VirobnichaFirma.DAL
+@{
+    ViewData["Title"] = "Coutry";
+}
+
+<h1>Профиль</h1>
+<div class="row">
+    <div class="col-md-4">
+        Логин : @Model.Account.Login<p/><p/>
+        <a>Сменить пароль</a><p/><p/>
+        Уровень доступа : @Model.Account.Type.ToString()<p/>
+        @{
+            if (Model.Customer == null)
+            {
+                <a>Заполнить данные заказчика</a>
+            }
+            else
+            {
+                Заказчик : <a>@Model.Customer.CustomerName</a>
+            }
+        }
+    </div>
+</div>

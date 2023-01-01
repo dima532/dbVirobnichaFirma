@@ -31,16 +31,28 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Affiliates">Affiliates</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Registration">Register</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Login">Log In</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Accounts">Accounts</a>
-                        </li>
+                        @if (User.IsInRole("Administrator"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Accounts">Accounts</a>
+                            </li>
+                        }
                     </ul>
+                </div>
+                <div class="d-flex">
+                    @{
+                        if (User.Identity.Name == null)
+                        {
+                            <a asp-page="/Registration" class="btn btn-outline-warning">Register</a>
+                            <a asp-page="/Login" class="btn btn-outline-success">Log In</a>
+                        }
+                        else
+                        {
+                            <a asp-page="/user/profile" class="btn btn-outline-success">Profile</a>
+                            <a asp-page="/LogOut" class="btn btn-outline-danger">Log Out</a>
+                        }
+                    }
+
                 </div>
             </div>
         </nav>

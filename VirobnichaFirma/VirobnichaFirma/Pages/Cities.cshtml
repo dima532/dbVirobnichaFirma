@@ -9,7 +9,10 @@
 </div>
 
 <div>
-    <a asp-page="City">Создать</a>
+    @if (User.IsInRole("Administrator"))
+    {
+        <a asp-page="City">Создать</a>
+    }
     <form method="post">
         <table class="table">
             <tr>
@@ -32,11 +35,14 @@
                                 @Model.Countries.FirstOrDefault(_=>_.Id==city.CountryId)?.CountryName
                             </td>
                             <td align="right">
-                            <a asp-page="City" asp-route-id="@city.Id" class="btn btn-outline-warning btn-sm">
-                            Редактировать
-                            </a>
-                            <button type="submit" class="btn btn-outline-danger btn-sm" 
-                            asp-page-handler="delete" asp-route-id="@city.Id">Удалить</button>
+                            @if (User.IsInRole("Administrator"))
+                            {
+                                <a asp-page="City" asp-route-id="@city.Id" class="btn btn-outline-warning btn-sm">
+                                Редактировать
+                                </a>
+                                <button type="submit" class="btn btn-outline-danger btn-sm" 
+                                asp-page-handler="delete" asp-route-id="@city.Id">Удалить</button>
+                            }
                             </td>
                         </tr>
                 }
